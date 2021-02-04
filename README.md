@@ -17,4 +17,5 @@ Connections:
 This is a picture of the module I am using, other board designs are available online that have the same functionality:
 
 
-      ![SHT21](https://i.imgur.com/2buOhkE.png)
+![SHT21](https://i.imgur.com/2buOhkE.png)
+
