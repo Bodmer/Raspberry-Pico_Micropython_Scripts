@@ -14,3 +14,7 @@ Connections:
     sensor SCL     to Pico pin 13
     sensor SDA     to Pico pin 12
 ```
+This is a picture of the module I am using, other board designs are available online that have the same functionality:
+
+
+      ![SHT21](https://i.imgur.com/2buOhkE.png)
