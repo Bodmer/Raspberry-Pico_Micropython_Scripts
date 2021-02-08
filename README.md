@@ -24,12 +24,12 @@ This is a picture of the module I am using, other board designs are available on
 This script drives a geared stepper motor 1 rev clockwise, then powers down the coils and stops for 1 second. The motor is half stepped to achieve a maximum speed of ~1000 steps per second (1 millisecond per step)
 ```
 Connections:
-    motor +(5V) to Pico VBUS
-    motor -(0V) to Pico GND
-    motor   IN1 to Pico pin 0
-    motor   IN2 to Pico pin 1
-    motor   IN3 to Pico pin 2
-    motor   IN4 to Pico pin 3
+    motor driver board +(5V) to Pico VBUS
+    motor driver board -(0V) to Pico GND
+    motor driver board   IN1 to Pico pin 0
+    motor driver board   IN2 to Pico pin 1
+    motor driver board   IN3 to Pico pin 2
+    motor driver board   IN4 to Pico pin 3
 
 ```
 This is a picture of the 28BYJ-48 motor I am using:
