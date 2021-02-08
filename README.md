@@ -38,6 +38,6 @@ This is a picture of the 28BYJ-48 motor I am using:
 
 The motor is driven by a board fitted with a ULN2003 device:
 
-This is a picture of the 28BYJ-48 motor I am using:
+This is a picture of the 28BYJ-48 motor driver board I am using:
 
 ![Driver](https://i.imgur.com/OdMqjvX.png)
