@@ -19,3 +19,25 @@ This is a picture of the module I am using, other board designs are available on
 
 ![SHT21](https://i.imgur.com/2buOhkE.png)
 
+# stepper_1_rev script
+
+This script drives a geared stepper motor 1 rev clockwise, then powers down the coils and stops for 1 second. The motor is half stepped to achieve a maximum speed of ~1000 steps per second (1 millisecond per step)
+```
+Connections:
+    motor +(5V) to Pico VBUS
+    motor -(0V) to Pico GND
+    motor   IN1 to Pico pin 0
+    motor   IN2 to Pico pin 1
+    motor   IN3 to Pico pin 2
+    motor   IN4 to Pico pin 3
+
+```
+This is a picture of the 28BYJ-48 motor I am using:
+
+![Motor](https://i.imgur.com/rEpvvsX.png?1)
+
+The motor is driven by a board fitted with a ULN2003 device:
+
+This is a picture of the 28BYJ-48 motor I am using:
+
+![Driver](https://i.imgur.com/OdMqjvX.png)
