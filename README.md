@@ -41,3 +41,12 @@ The motor is driven by a board fitted with a ULN2003 device:
 This is a picture of the 28BYJ-48 motor driver board I am using:
 
 ![Driver](https://i.imgur.com/OdMqjvX.png)
+
+# SHT21/HTU21 with output on LCD
+
+This script reads the temperature and humidity from the SHT21 sensor and displays it on a 2 x 16 LCD display.
+
+The LCD interface uses the same I2C pins as the SHT21. The LCD uses a PCF8574 I2C lcd backpack board and is powered from 5V. These LCDs are commonly used on Arduino projects. Example here:
+
+https://wiki.keyestudio.com/Ks0061_keyestudio_1602_I2C_Module
+
