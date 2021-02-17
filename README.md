@@ -50,3 +50,6 @@ The LCD interface uses the same I2C pins as the SHT21. The LCD uses a PCF8574 I2
 
 https://wiki.keyestudio.com/Ks0061_keyestudio_1602_I2C_Module
 
+# vbus_adc script
+
+Measure the ADC 3 input value and calculate the VBUS voltage (USB input). The script includes a fudge factor of 5.0/3.11 so the calculated voltage correspond to that measured with a multimeter. The fudge factor may vary between boards and in different operating conditions.
