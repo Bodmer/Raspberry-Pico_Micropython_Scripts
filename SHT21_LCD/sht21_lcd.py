@@ -1,5 +1,5 @@
 # Read SHT21/HTU21 temperature and humidity
-# Print results to shell
+# Print results to I2C LCD
 
 # SHT21 info:
 # Device I2C address = 0x40 (hex) = 64 decimal
